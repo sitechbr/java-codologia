@@ -1,0 +1,4 @@
+My file
+first string
+second string
+thread string
