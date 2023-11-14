@@ -21,8 +21,21 @@ public class DogPro {
 
     }
 
+    public int getAge() {
+        return this.age;
+    }
+
+    public int setAge(int age) {
+        if (age > 0 && age <18) {
+            this.age = age;
+            return 0;
+        }
+        else return 1;
+
+    }
+
     public void say() {
-        System.out.printf("Name: %s\nAge: %s\nColor: %s",this.name,this.age,this.color);
+        System.out.printf("Name: %s\nAge: %s\nColor: %s\n",this.name,this.age,this.color);
 
     }
 

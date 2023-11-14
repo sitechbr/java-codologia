@@ -13,6 +13,18 @@ public class Main {
         dryzhok.say();
         DogPro lars = new DogPro("Lars");
         lars.say();
+        System.out.printf("Age: %s\n", lars.getAge());
+        if (lars.setAge(-1)==1) {
+            System.out.println("Input Age, incorrect data");
+        }
+
+        System.out.printf("Age: %s\n", lars.getAge());
+        if (lars.setAge(16)==1) {
+            System.out.println("Input Age, incorrect data");
+        }
+        System.out.printf("Age: %s\n", lars.getAge());
+
+
 
     }
 }
